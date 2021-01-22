@@ -6,12 +6,9 @@
 //  Copyright © 2016 AppsFlyer. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#if defined(__has_include) && __has_include(<Analytics/SEGIntegrationFactory.h>)
-#import <Analytics/SEGIntegrationFactory.h>
-#else
-#import <Segment/SEGIntegrationFactory.h>
-#endif
+@import Segment;
+@import Foundation;
+
 #import "SEGAppsFlyerIntegration.h"
 
 

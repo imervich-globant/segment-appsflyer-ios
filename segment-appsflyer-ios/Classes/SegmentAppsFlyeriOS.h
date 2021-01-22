@@ -6,7 +6,7 @@
 //  Copyright © 2016 AppsFlyer. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for SegmentAppsFlyeriOS.
 FOUNDATION_EXPORT double SegmentAppsFlyeriOSVersionNumber;
