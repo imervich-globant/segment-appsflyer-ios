@@ -149,7 +149,7 @@
     NSNumber *revenue = [SEGAppsFlyerIntegration extractRevenue:payload.properties withKey:@"revenue"];
     NSString *currency = [SEGAppsFlyerIntegration extractCurrency:payload.properties withKey:@"currency"];
     
-    if (revenue) {
+    if (revenue != nil) {
         NSMutableDictionary* af_payload_properties = [NSMutableDictionary dictionaryWithDictionary: payload.properties];
         [af_payload_properties setObject:revenue forKey:@"af_revenue"];
         
